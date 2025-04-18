@@ -1,43 +1,54 @@
-
-
 h1 {
   font-size: 40px;
   font-family: Arial
 }
+
 h2 {
   font-size: 25px;
   font-family: Arial
 }
+
 h3 {
   font-family: Arial
 }
+
 p {
   font-size: 14px;
   font-family: Arial
 }
 
-th, td {
+th,
+td {
   padding: 8px;
   text-align: left;
   border-bottom: 1px solid #ddd;
   font-family: Arial
 }
-tr:nth-child(odd) {background-color: #f2f2f2;}
-.header {
-  background-color: green;
-  height: 120px;
-  display: block;
+
+tr:nth-child(odd) {
+  background-color: #f2f2f2;
 }
+
+.header {
+  background-color: darkcyan;
+  text-align: right;
+  height: 210px;
+  display: block;
+  padding-right: 10px;
+}
+
 .logo {
   display: inline-block;
-  height: 100px;
   padding-top: 10px;
   padding-left: 10px;
+  margin-right: 10px;
 }
+
 .links {
   display: block;
   text-align: left;
 }
+
 .btn {
   font-size: 16px;
   background-color: blue;
@@ -45,6 +56,7 @@ tr:nth-child(odd) {background-color: #f2f2f2;}
   border: 1px solid gray;
   margin: 5px;
 }
+
 .float-right {
   float: right;
   padding: 5px;
