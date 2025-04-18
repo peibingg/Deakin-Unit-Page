@@ -23,3 +23,29 @@ th, td {
   font-family: Arial
 }
 tr:nth-child(odd) {background-color: #f2f2f2;}
+.header {
+  background-color: green;
+  height: 120px;
+  display: block;
+}
+.logo {
+  display: inline-block;
+  height: 100px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.links {
+  display: block;
+  text-align: left;
+}
+.btn {
+  font-size: 16px;
+  background-color: blue;
+  color: white;
+  border: 1px solid gray;
+  margin: 5px;
+}
+.float-right {
+  float: right;
+  padding: 5px;
+}
